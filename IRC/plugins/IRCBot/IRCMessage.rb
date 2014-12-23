@@ -200,11 +200,11 @@ $
   end
 
   def command_prefix
-    '.'
+    ';'
   end
 
   def command_prefix_matcher
-    /[.．｡。]/.to_s
+    /[;]/.to_s
   end
 
   # Object that identifies the medium through which this message has passed.
